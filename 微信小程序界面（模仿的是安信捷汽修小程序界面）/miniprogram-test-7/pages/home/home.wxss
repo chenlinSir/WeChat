@@ -1,0 +1,64 @@
+.page{
+   background-color: red;
+}
+.out{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.first{
+  width: 50px;
+  height: 50px;
+  background-color:green; 
+}
+.second{
+  width: 50px;
+  height: 50px;
+  background-color:aqua; 
+  margin: 0 10px;
+}
+.three{
+  width: 50px;
+  height: 50px;
+  background-color:rgb(163, 37, 201)
+}
+
+.uinfo{
+  text-align: center;
+}
+.userImg{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.form{
+  margin-top: 30px;
+}
+.form view{
+  margin-top: 10px;
+}
+.slide-image{
+  width: 100%;
+  height: 100%;
+}
+.dianPu{
+  width: 100%;
+  height: 30px;
+  text-align: left;
+  font-size: 17px;
+  line-height: 30px
+  
+  
+}
+.dianPu_img{
+  width: 30px;
+  height: 30px;
+  float: left;
+}
+.DPtext{
+  display: block;
+  float: left;
+  margin-left:10px; 
+}

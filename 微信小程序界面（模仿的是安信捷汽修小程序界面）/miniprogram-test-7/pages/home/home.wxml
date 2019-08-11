@@ -1,0 +1,13 @@
+<!--pages/mypage/mypage.wxml-->
+<!--视图容器-->
+<swiper indicator-color="rgba(12, 50, 150, .3)" indicator-active-color="#FFFFFF" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" />
+    </swiper-item>
+  </block>
+</swiper>
+<view class="dianPu" bindtap='mendian'>
+  <image class="dianPu_img" src='../../image/门店.png'></image>
+  <text class="DPtext">4家门店</text>
+</view>
